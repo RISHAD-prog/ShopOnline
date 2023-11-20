@@ -23,6 +23,12 @@ namespace ShopOnline.Api.Controllers
             
         }
 
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var result = await this.productRepository.GetAllProductAsync(this.productRepositoryService.GetItems);
+            return Ok(result);
+        }
       
     }
 }

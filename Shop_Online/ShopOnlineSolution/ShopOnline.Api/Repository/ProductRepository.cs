@@ -1,5 +1,6 @@
 ﻿using ShopOnline.Api.Entities;
 using ShopOnline.Models.Dtos;
+using System.Collections.Generic;
 
 namespace ShopOnline.Api.Repository
 {
@@ -20,6 +21,22 @@ namespace ShopOnline.Api.Repository
                 return ex.Message.ToString();
             }
             return baseResponse;
+        }
+
+        public async Task<IEnumerable<TResult>> GetAllProductAsync<TResult>(Func<Task<IEnumerable<TResult>>> methodname)
+        {
+            try
+            {
+                var items = await methodname();
+                if (items != null)
+                {
+                    return items;
+                }
+                return Enumerable.Empty<TResult>();
+            }
+            catch (Exception ex) {
+                throw new Exception();
+            }
         }
     }
 }
