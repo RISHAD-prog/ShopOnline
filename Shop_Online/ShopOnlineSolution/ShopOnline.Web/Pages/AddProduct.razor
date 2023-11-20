@@ -1,0 +1,42 @@
+﻿@page "/addproduct"
+@inherits AddProductBase
+
+<h3>ProductForm</h3>
+
+<div>
+    <label>Name:</label>
+    <input type="text" @bind="Product.Name" />
+</div>
+
+<div>
+    <label>Description:</label>
+    <input type="text" @bind="Product.Description" />
+</div>
+
+<div>
+    <label>Image URL:</label>
+    <input type="text" @bind="Product.ImageURL" />
+</div>
+
+<div>
+    <label>Price:</label>
+    <input type="text" @bind="Product.Price" />
+</div>
+
+<div>
+    <label>Quantity:</label>
+    <input type="text" @bind="Product.Qty" />
+</div>
+
+<div>
+    <label>Category ID:</label>
+    <input type="text" @bind="Product.CategoryId" />
+</div>
+
+<div>
+    <label>Category Name:</label>
+    <input type="text" @bind="Product.CategoryName" />
+</div>
+
+<button @onclick="()=>Add_Product_Click(Product)">Add Product</button>
+

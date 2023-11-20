@@ -1,0 +1,12 @@
+E:\Blazor_Dotnet\Shop_Online\ShopOnlineSolution\ShopOnline.Models\bin\Debug\ShopOnline.Models.dll
+E:\Blazor_Dotnet\Shop_Online\ShopOnlineSolution\ShopOnline.Models\bin\Debug\ShopOnline.Models.pdb
+E:\Blazor_Dotnet\Shop_Online\ShopOnlineSolution\ShopOnline.Models\obj\Debug\ShopOnline.Models.csproj.AssemblyReference.cache
+E:\Blazor_Dotnet\Shop_Online\ShopOnlineSolution\ShopOnline.Models\obj\Debug\ShopOnline.Models.csproj.CoreCompileInputs.cache
+E:\Blazor_Dotnet\Shop_Online\ShopOnlineSolution\ShopOnline.Models\obj\Debug\ShopOnline.Models.dll
+E:\Blazor_Dotnet\Shop_Online\ShopOnlineSolution\ShopOnline.Models\obj\Debug\ShopOnline.Models.pdb
+C:\practice\Blazor_Dotnet\Shop_Online\ShopOnlineSolution\ShopOnline.Models\bin\Debug\ShopOnline.Models.dll
+C:\practice\Blazor_Dotnet\Shop_Online\ShopOnlineSolution\ShopOnline.Models\bin\Debug\ShopOnline.Models.pdb
+C:\practice\Blazor_Dotnet\Shop_Online\ShopOnlineSolution\ShopOnline.Models\obj\Debug\ShopOnline.Models.csproj.AssemblyReference.cache
+C:\practice\Blazor_Dotnet\Shop_Online\ShopOnlineSolution\ShopOnline.Models\obj\Debug\ShopOnline.Models.csproj.CoreCompileInputs.cache
+C:\practice\Blazor_Dotnet\Shop_Online\ShopOnlineSolution\ShopOnline.Models\obj\Debug\ShopOnline.Models.dll
+C:\practice\Blazor_Dotnet\Shop_Online\ShopOnlineSolution\ShopOnline.Models\obj\Debug\ShopOnline.Models.pdb
